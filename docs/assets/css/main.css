@@ -1,0 +1,68 @@
+/* Main styles */
+:root {
+    --primary-color: #0066cc;
+    --text-color: #333;
+    --background-color: #ffffff;
+    --border-color: #eee;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: var(--text-color);
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* Header styles */
+.site-header {
+    background-color: var(--background-color);
+    border-bottom: 1px solid var(--border-color);
+    padding: 1rem 0;
+}
+
+/* Navigation styles */
+.main-nav {
+    padding: 1rem 0;
+}
+
+.nav-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 2rem;
+}
+
+/* Content styles */
+.content {
+    padding: 2rem 0;
+}
+
+/* Article styles */
+.article {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+/* Footer styles */
+.site-footer {
+    background-color: var(--background-color);
+    border-top: 1px solid var(--border-color);
+    padding: 1rem 0;
+    margin-top: 2rem;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+    .nav-list {
+        flex-direction: column;
+        gap: 1rem;
+    }
+}

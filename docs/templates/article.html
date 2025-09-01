@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{TITLE}} - Stock & Crypto Analysis Hub</title>
+    <link rel="stylesheet" href="/pp02/assets/css/main.css">
+    <meta name="description" content="{{DESCRIPTION}}">
+</head>
+<body>
+    <!-- Include header -->
+    <include src="/pp02/components/header.html"></include>
+
+    <main class="container">
+        <article class="article">
+            <header class="article-header">
+                <h1>{{TITLE}}</h1>
+                <div class="article-meta">
+                    <span class="date">{{DATE}}</span>
+                    <span class="category">{{CATEGORY}}</span>
+                </div>
+            </header>
+
+            <div class="article-content">
+                {{CONTENT}}
+            </div>
+        </article>
+    </main>
+
+    <!-- Include footer -->
+    <include src="/pp02/components/footer.html"></include>
+
+    <script src="/pp02/assets/js/main.js"></script>
+</body>
+</html>
